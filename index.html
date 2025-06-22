@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="#"><p>&lt; Dimitrije &#47; Savatić &gt;</p></a>
+        </div>
+        <div class="links">
+          <a href="#" class="link">Home</a>
+          <a href="#about" class="link">About me</a>
+          <a href="#projects" class="link">Projects</a>
+          <a href="#contact" class="link">Contact</a>
+        </div>
+        <div class="burger-links">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+        <div class="burger-links-open">
+          <div class="burger-cross-line"></div>
+          <div class="burger-cross-line"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="hero" class="hero">
+        <div class="hero-left">
+          <div class="intro-content">
+            <h2 class="heading hello">Hello, I'm</h2>
+            <h1 class="name">Dimitrije Savatić</h1>
+            <p class="desc-letters">
+              Web Developer from Serbia, at your service.
+            </p>
+          </div>
+          <div class="intro-buttons">
+            <a href="#about"
+              ><div class="btn-about">
+                About me <i class="fa-solid fa-user"></i></div
+            ></a>
+            <a href="#projects"
+              ><div class="btn-projects">
+                Projects <i class="fa-solid fa-eye"></i></div
+            ></a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-img">
+            <img src="/assets/pictures/hero.png" alt="hero picture" />
+          </div>
+        </div>
+      </div>
+      <div id="about" class="about">
+        <div class="about-top">
+          <p class="heading about-me">About me:</p>
+          <p class="about-desc desc-letters">
+            Hi, my name is Dimitrije Savatić. I'm a junior web developer with
+            hands-on experience across both frontend and backend technologies,
+            including PHP(Laravel) and Javascript(Angular). Passionate about
+            writing clean, maintainable code and building responsive,
+            user-focused web applications. Fast learner with strong
+            problem-solving skills, eager to grow within a collaborative
+            development team.
+          </p>
+          <div class="about-exp">
+            <p class="exp-num">2+</p>
+            <p class="exp-desc">
+              Years of experience. Specialized in building web applications,
+              while ensuring a seamless web experience for end users.
+            </p>
+          </div>
+        </div>
+        <div class="about-bottom">
+          <div class="about-box">
+            <i class="fa-brands fa-php"></i>
+            <div class="box-text">PHP</div>
+          </div>
+          <div class="about-box">
+            <i class="fa-solid fa-database"></i>
+            <div class="box-text">SQL</div>
+          </div>
+          <div class="about-box">
+            <i class="fa-brands fa-angular"></i>
+            <div class="box-text">Angular</div>
+          </div>
+          <div class="about-box">
+            <i class="fa-solid fa-cloud"></i>
+            <div class="box-text">Azure</div>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="projects">
+        <div class="my-projects heading primary">My projects:</div>
+        <div class="projects-desc desc-letters">
+          I have worked on a few projects through the years of my school time.
+          I strived to keep clean work, so my apps could be real-world projects with few updates. These are the latest of them.
+        </div>
+        <div class="projects-main">
+          <div class="projects-box">
+            <div class="box-pic background-inherit">
+              <img
+                src="/assets/pictures/bibliotheca.png"
+                alt="bibliotheca pic"
+              />
+            </div>
+            <div class="box-content background-inherit">
+              <div class="box-name primary background-inherit">Bibliotheca</div>
+              <div class="box-desc background-inherit">
+                A web library app for book renting system.
+              </div>
+              <div class="box-buttons background-inherit">
+                <div class="btn-left background-inherit">View Live</div>
+                <a href="https://github.com/dimitrije-savatic/bibliotheca"
+                  ><div class="btn-right background-inherit">
+                    Github Repo
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projects-box">
+            <div class="box-pic background-inherit">
+              <img src="assets/pictures/smartblog.png" alt="smartblog pic" />
+            </div>
+            <div class="box-content background-inherit">
+              <div class="box-name primary background-inherit">Smart Blog</div>
+              <div class="box-desc background-inherit">
+                A web app for posting blogs.
+              </div>
+              <div class="box-buttons background-inherit">
+                <a href=""
+                  ><div class="btn-left background-inherit">View Live</div></a
+                >
+                <div class="btn-right background-inherit">Github Repo</div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-box">
+            <div class="box-pic background-inherit">
+              <img src="assets/pictures/ambrosia.png" alt="ambrosia pic" />
+            </div>
+            <div class="box-content background-inherit">
+              <div class="box-name primary background-inherit">
+                Ambrosia shop
+              </div>
+              <div class="box-desc background-inherit">
+                A web shop for organic food.
+              </div>
+              <div class="box-buttons background-inherit">
+                <div class="btn-left background-inherit">View Live</div>
+                <a
+                  href="https://github.com/dimitrije-savatic/ambrosia-shop"
+                  target="_blank"
+                  ><div class="btn-right background-inherit">
+                    Github Repo
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <div class="contact-left">
+          <div class="heading primary">Connect with me:</div>
+          <div class="contact-desc desc-letters">
+            Satisfied with me? Please contact me
+          </div>
+          <div class="contact-links">
+            <a
+              href="https://www.linkedin.com/in/dimitrije-savatic/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttFxcWhLJhGQPTsQnMSMvKvVzGKBbbNDGHKJTMjWpdSpCqXcVMBLLhXFsxSSXkHczmbPb"
+              target="_blank"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a href="https://github.com/dimitrije-savatic" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="contact-map">
+            <div style="position: relative">
+              <div
+                style="
+                  position: relative;
+                  padding-bottom: 75%;
+                  height: 0;
+                  overflow: hidden;
+                "
+              >
+                <iframe
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 70%;
+                    height: 70%;
+                    margin-top: 1.5rem;
+                    border: 0;
+                  "
+                  loading="lazy"
+                  allowfullscreen
+                  src="https://maps.google.com/maps?q=Belgrade%2C+Serbia&output=embed"
+                ></iframe>
+              </div>
+              <a
+                href="https://wordpress.org/plugins/super-simple-map-embeds/"
+                rel="noopener"
+                target="_blank"
+                style="
+                  position: absolute;
+                  width: 1px;
+                  height: 1px;
+                  padding: 0;
+                  margin: -1px;
+                  overflow: hidden;
+                  clip: rect(0, 0, 0, 0);
+                  white-space: nowrap;
+                  border: 0;
+                "
+                >google maps</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-form">
+            <div class="contact-form-heading">
+              Contact me, let's make a magic
+            </div>
+            <form action="/">
+              <div class="contact-input">
+                <input type="text" id="name" name="name" placeholder="Name:" />
+              </div>
+              <div class="contact-input">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email:"
+                />
+              </div>
+              <div class="contact-input">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  cols="50"
+                  placeholder="Message:"
+                ></textarea>
+              </div>
+              <button id="btn-form" disabled>Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="designer">&commat;2025 Dimitrije Savatić</div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/dimitrije-savatic/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttFxcWhLJhGQPTsQnMSMvKvVzGKBbbNDGHKJTMjWpdSpCqXcVMBLLhXFsxSSXkHczmbPb"
+          target="_blank"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="https://github.com/dimitrije-savatic" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
