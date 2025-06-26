@@ -21,6 +21,11 @@
   color: var(--off-white);
 }
 
+body.overflow{
+  overflow: hidden;
+}
+
+
 a {
   text-decoration: none;
   background: inherit;
@@ -502,6 +507,7 @@ footer {
   width: 40px;
   background-color: var(--primary-color);
   border-radius: var(--border-radius);
+  cursor: pointer;
 }
 
 .fa-arrow-up{
@@ -571,6 +577,10 @@ footer {
     align-items: end;
   }
 
+  .burger-links.hide{
+    display: none;
+  }
+
   .burger-line {
     height: 2px;
     width: 20px;
@@ -582,8 +592,11 @@ footer {
     width: 30%;
     display: none;
     justify-content: end;
-    margin-right: 1rem;
     position: relative;
+  }
+
+  .burger-links-open.show{
+    display: flex;
   }
 
   .burger-cross-line {
